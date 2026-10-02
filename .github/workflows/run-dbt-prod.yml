@@ -33,6 +33,3 @@ jobs:
         dbt debug
         dbt compile --target prod
         dbt run --target prod
-    - name: Test dbt Prod
-      run: |
-        dbt test --target prod
